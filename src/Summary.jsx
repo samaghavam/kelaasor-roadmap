@@ -81,7 +81,7 @@ const CongratulationsPage = () => {
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`p-6 text-center transition-all duration-300 group
+                  className={`p-4 text-center transition-all duration-300 group
                     ${activeTab === tab.id 
                       ? `${tab.bgColor} ${tab.textColor}` 
                       : 'text-gray-500 hover:bg-gray-50'}`}
@@ -91,8 +91,8 @@ const CongratulationsPage = () => {
                       {tab.icon}
                     </div>
                     <div>
-                      <div className="font-bold text-lg">{tab.title}</div>
-                      <div className="text-sm opacity-75">{tab.subtitle}</div>
+                      <div className="font-bold text-base">{tab.title}</div>
+                      <div className="text-xs opacity-75">{tab.subtitle}</div>
                     </div>
                   </div>
                 </button>
@@ -105,7 +105,7 @@ const CongratulationsPage = () => {
                 activeTab === tab.id && (
                   <div 
                     key={tab.id} 
-                    className={`${tab.bgColor} p-8 rounded-2xl border-2 ${tab.borderColor} ${tab.textColor} font-medium text-xl leading-relaxed shadow-inner transform transition-all duration-500 hover:scale-[1.02]`}
+                    className={`${tab.bgColor} p-8 rounded-2xl border-2 ${tab.borderColor} ${tab.textColor} font-medium text-base leading-relaxed shadow-inner transform transition-all duration-500 hover:scale-[1.02]`}
                   >
                     {tab.content}
                   </div>
@@ -134,17 +134,17 @@ const CongratulationsPage = () => {
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-10 text-center transform hover:shadow-2xl transition-all duration-300">
           <div className="max-w-2xl mx-auto space-y-8">
             <Sparkles className="w-8 h-8 mx-auto text-purple-500" />
-            <p className="text-base text-gray-700 leading-relaxed">
+            <p className="text-base text-justify text-gray-700 leading-relaxed">
               Remember, there's absolutely no race here! Everyone learns differently, and that's what makes this journey so special. Some days you'll feel like a coding superhero, and others you might feel a bit stuck - and that's completely normal and totally okay!
             </p>
-            <p className="text-base text-gray-700 leading-relaxed">
+            <p className="text-base text-justify text-gray-700 leading-relaxed">
               And hey, just because the bootcamp is over doesn't mean you're on your own. Stuck on something? Confused? Just want to share a win? We are still here cheering you on!
             </p>
             <div className="pt-8 border-t border-gray-200">
-              <p className="font-bold text-xl text-gray-800 mb-4">Your proud teachers & mentors,</p>
-              <p className="text-lg text-gray-600">Hosein Soleymani</p>
-              <p className="text-lg text-gray-600 mb-8">Sama Ghavamzadeh</p>
-              <p className="text-lg italic text-gray-500">
+              <p className="font-bold text-xl text-gray-800 mb-4">Your proud teacher & mentor,</p>
+              <p className="text-lg font-bold text-gray-600">Hosein Soleymani</p>
+              <p className="text-lg font-bold text-gray-600 mb-8">Sama Ghavamzadeh</p>
+              <p className="text-xs italic text-gray-500">
                 P.S. Don't forget to celebrate your wins, both big and small - you're doing something amazing here! 🎉
               </p>
             </div>
