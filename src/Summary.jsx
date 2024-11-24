@@ -35,7 +35,7 @@ const CongratulationsPage = () => {
       title: 'Future Goals',
       subtitle: 'Your Aspirations (level 2)',
       icon: <Heart className="w-6 h-6" />,
-      content: 'Consider these your "coming soon" attractions. They\'re important too, but take your time - master the purple box skills first!',
+      content: 'Consider these your "coming soon" attractions. They\'re important too, but take your time - master the blue box skills first!',
       bgColor: 'bg-pink1',
       borderColor: 'border-pink1-900',
       textColor: 'text-black'
@@ -54,7 +54,7 @@ const CongratulationsPage = () => {
         <div className="mb-16 text-center relative">
           <div className="inline-block">
             <Award className="w-16 h-16 mx-auto mb-4 text-blue-600 animate-pulse" />
-            <h1 className="text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 animate-gradient">
+            <h1 className="text-4xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 animate-gradient">
               Kelaasor FrontEnd Roadmap
             </h1>
           </div>
@@ -134,10 +134,10 @@ const CongratulationsPage = () => {
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-10 text-center transform hover:shadow-2xl transition-all duration-300">
           <div className="max-w-2xl mx-auto space-y-8">
             <Sparkles className="w-8 h-8 mx-auto text-purple-500" />
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               Remember, there's absolutely no race here! Everyone learns differently, and that's what makes this journey so special. Some days you'll feel like a coding superhero, and others you might feel a bit stuck - and that's completely normal and totally okay!
             </p>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               And hey, just because the bootcamp is over doesn't mean you're on your own. Stuck on something? Confused? Just want to share a win? We are still here cheering you on!
             </p>
             <div className="pt-8 border-t border-gray-200">
