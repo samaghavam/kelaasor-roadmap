@@ -1,10 +1,10 @@
-import Roadmap from "./Roadmap"
+import FrontendRoadmap from "./Summary"
 
 function App() {
 
   return (
     <main>
-      <Roadmap />
+      <FrontendRoadmap />
     </main>
   )
 }
