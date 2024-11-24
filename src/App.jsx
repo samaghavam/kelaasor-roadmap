@@ -1,12 +1,10 @@
-import FrontendRoadmap from "./Summary"
+import CongratulationsPage from "./Summary"
 
-function App() {
-
+const App = () => {
   return (
-    <main>
-      <FrontendRoadmap />
-    </main>
+    <div>
+      <CongratulationsPage />
+    </div>
   )
 }
-
 export default App
